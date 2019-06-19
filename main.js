@@ -1,6 +1,5 @@
-//Number Guessing Game
-
-var i = Math.floor((Math.random() * 100) + 1); //Denotes random numbers are generated and stored it in i
+/*Number Guessing Game*/
+var i = Math.floor((Math.random() * 100) + 1); // Means that random numbers are generated and stored it in i
 var randomNumber = () => {
     var i = Math.floor((Math.random() * 100) + 1); 
     var j=i%2; //gets the modulus and stores the result in j
